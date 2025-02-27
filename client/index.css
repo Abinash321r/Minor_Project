@@ -1,0 +1,30 @@
+body{
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+}
+#root{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(110deg, #e462a6, #7589ff, #dd4fff, #ff4166);
+    background-size: 400% 400%;
+    animation: gradientMove 15s infinite;
+}
+@keyframes gradientMove {
+    0% {
+        background-position: 50% 0%;
+      }
+      25% {
+        background-position: 100% 50%;
+      }
+      50% {
+        background-position: 50% 100%;
+      }
+      75% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 50% 0%;
+      }
+  }

@@ -1,0 +1,98 @@
+div#home {
+    display: flex ;
+     width: 100%;
+     height: 100%;
+    flex-direction: column;
+}
+div#navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+#anchor1{
+    text-decoration: none;
+    color: white;
+}
+#anchor2{
+    text-decoration: none;
+    color: white;
+}
+div#body {
+    width: 100%;
+    flex: 1;
+    background-color: white;
+}
+
+div#sensordata {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+div#sensordata>div{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 28%;
+    gap: 10px;
+    box-shadow: 0px 2px 11px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 250px;
+    flex-direction: column;
+    
+}
+div#sensorname {
+    display: flex;
+    height: 41px;
+    justify-content: center;
+    color: #be32db;
+    font-size: larger;
+}
+div#value {
+    color: #3375cd;
+}
+div#manualcontrol {
+    color: #3375cd;
+}
+div#automaticcontrol {
+    color: #3375cd;
+}
+div#required_value{
+    color: #3375cd;
+}
+button {
+    background-color: #7be544;
+    border: #228aed;
+    width: 40px;
+    border-radius: 4px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+div#cropName {
+    height: 50px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+}
+#status{
+    color: #3375cd;
+}
+input[type="text"] {
+    height: 30px;
+    width: 250px;
+    padding: 5px;
+}
+label {
+    color: #be32db;
+    width: 125px;
+}
